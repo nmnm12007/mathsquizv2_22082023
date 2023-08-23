@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .center {
+      text-align: center;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Quiz Answer</title>
+</head>
+<body>
+  <div class="left">
+      <form action="/quizQuestion" method = "get">
+        <h2> The CORRECT ANSWER is:  {{answer}} </h2> <br>
+        <h2> You have answered  {{h_ans}} </h2>
+        <input type = "submit" name = "NextQuestion">
+      </form>
+  </div>
+</body>
+</html>

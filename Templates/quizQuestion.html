@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .center {
+      text-align: center;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Maths Quiz for Children</title>
+</head>
+<body>
+    <div class="left">
+        <h2> Maths Quiz for Children </h2>
+            <form action = "/quizAnswer" method = "post">
+                <table>
+                    <tr>
+                        <td> Number 1   </td> <td> {{a}} </td>
+                    </tr>
+                    <tr>
+                        <td> Operation   </td> <td> {{op}} </td>
+                    </tr>
+                    <tr>
+                        <td> Number 2   </td> <td> {{b}} </td>
+                    </tr>
+                      <tr>
+                        <td> ANSWER </td> <td> <input type = "text" name = "answer"></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit" value = "Submit">  </td>
+                    </tr>
+                </table>
+                <br>
+                <h3> <a href="/quitGame"> Quit Game Now ! </a> <br>   </h3>
+
+            </form>
+    </div>
+</body>
+</html>
